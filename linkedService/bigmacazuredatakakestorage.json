@@ -1,0 +1,12 @@
+{
+	"name": "bigmacazuredatakakestorage",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://bigmacdatalake.dfs.core.windows.net",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDAwQTZFMjg3LTQ0N0EtNDM3Mi1BNEZGLUJBODBFRDY4QjA4Q19mYzlhMGY5NC1hMGI4LTQ4MjUtOTA5Zi0wMmNhODM3MjhiY2YiDQp9"
+		}
+	}
+}
