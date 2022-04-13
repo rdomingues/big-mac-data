@@ -1,0 +1,50 @@
+{
+	"name": "SourceDataset_1ff",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureFileStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureFileStorageLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "name",
+				"type": "String"
+			},
+			{
+				"name": "iso_a3",
+				"type": "String"
+			},
+			{
+				"name": "currency_code",
+				"type": "String"
+			},
+			{
+				"name": "local_price",
+				"type": "String"
+			},
+			{
+				"name": "dollar_ex",
+				"type": "String"
+			},
+			{
+				"name": "GDP_dollar",
+				"type": "String"
+			},
+			{
+				"name": "date",
+				"type": "String"
+			}
+		]
+	}
+}
