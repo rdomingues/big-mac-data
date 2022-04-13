@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_1ff",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "bigmacazuredatakakestorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "datalakecontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
